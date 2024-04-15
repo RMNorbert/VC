@@ -29,7 +29,7 @@ public class CalculationController {
     }
 
     @Operation(
-            summary = "Returns the calculated price without VAT, value added tax and the price including tax",
+            summary = "From the provided net and VAT amount returns the calculated price without VAT, value added tax and the price including tax ",
             description = "Returns a CalculationRequest calculated from the provided net and VAT amount, " +
                     "containing the calculated price without VAT, the value added tax and the price including tax",
             tags = {"Calculate", "post"})
@@ -55,7 +55,7 @@ public class CalculationController {
     }
 
     @Operation(
-            summary = "Returns the calculated price without VAT, value added tax and the price including tax",
+            summary = "From the provided gross and VAT amount returns the calculated price without VAT, value added tax and the price including tax",
             description = "Returns a CalculationRequest calculated from the provided gross and VAT amount, " +
                     "containing the calculated price without VAT, the value added tax and the price including tax",
             tags = {"Calculate", "post"})
@@ -79,7 +79,7 @@ public class CalculationController {
     }
 
     @Operation(
-            summary = "Returns the calculated price without VAT, value added tax and the price including tax",
+            summary = "From the provided added tax and VAT amount returns the calculated price without VAT, value added tax and the price including tax",
             description = "Returns a CalculationRequest calculated from the provided added tax and VAT amount, " +
                     "containing the calculated price without VAT, the value added tax and the price including tax",
             tags = {"Calculate", "post"})
